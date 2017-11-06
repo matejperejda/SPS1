@@ -77,9 +77,9 @@ Tvorba aplikácií s využitím architektúry MVC vyžaduje vytvorenie troch kom
 
 **Časti komponentu:**
 
-* Trieda - vlastnosti a metódy
-* Metadata - definuje napr. funkciu, ktorú má zastávať daný komponent
-* Template - definovanie HTML pohľadu, ktorý bude zobrazovaný v aplikácii
+* **Trieda** - vlastnosti a metódy (.ts)
+* [**Metadata**](https://angular.io/api/core/Component#metadata-overview) - definuje napr. názov html tagu komponentu (`selector`), štýly, animácie, šablóny a iné
+* **Template** - definovanie HTML pohľadu, ktorý bude zobrazovaný v aplikácii (.html)
 
 *Príklad komponentu:*
 
