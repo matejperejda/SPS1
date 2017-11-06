@@ -117,7 +117,47 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
-### [Link](https://stackblitz.com/edit/angular-sps-1)
+------
+
+## Čo potrebujeme?
+
+1. IDE
+
+	* [Jetbrains WebStorm](https://www.jetbrains.com/webstorm/) - študentská licencia na požiadanie
+
+	* [Visual Studio Code](https://code.visualstudio.com/)
+
+	* online editory
+ 		* [Plunker](https://plnkr.co/)
+ 		* [Stackblitz](https://stackblitz.com)
+
+2. [Node.js a NPM](https://nodejs.org/en/download/)
+
+3. [TypeScript](https://www.typescriptlang.org/)
+
+```
+npm install –g typescript
+```
+
+4. [Angular Quickstart](https://github.com/angular/quickstart) alebo [Angular CLI](https://cli.angular.io/) - Command Line Interface (zostavovač Angular projektu)
+
+```
+npm install -g angular-cli
+```
+
+5. Template - kostra projektu
+
+```
+ng new PROJECT_NAME
+```
+
+6. Bootstrap (nie je nutnosť)
+
+```
+npm install bootstrap@next
+```
+
+------
 
 ## Typescript
 
@@ -170,6 +210,10 @@ class Student {
  let janoPovedal = jano.povedzMenoAVek(true); // “Jano 19”
 ```
 
+*Ukážka č. 1: [**link**](https://stackblitz.com/edit/angular-sps-1)*
+
+*Ukážka č. 2: tvorba nového komponentu*
+
 ## Direktívy
 
 Direktívy sú prvky jazyka HTML, ktoré sú súčasťou BrowserModule modulu a obohacujú prácu s HTML.
@@ -206,45 +250,7 @@ Direktívy sú prvky jazyka HTML, ktoré sú súčasťou BrowserModule modulu a 
 </form>
 ```
 
-------
-
-## Čo potrebujeme?
-
-1. IDE
-
-	* [Jetbrains WebStorm](https://www.jetbrains.com/webstorm/) - študentská licencia na požiadanie
-
-	* [Visual Studio Code](https://code.visualstudio.com/)
-
-	* online editory
- 		* [Plunker](https://plnkr.co/)
- 		* [Stackblitz](https://stackblitz.com)
-
-2. [Node.js a NPM](https://nodejs.org/en/download/)
-
-3. [TypeScript](https://www.typescriptlang.org/)
-
-```
-npm install –g typescript
-```
-
-4. [Angular Quickstart](https://github.com/angular/quickstart) alebo [Angular CLI](https://cli.angular.io/) - Command Line Interface (zostavovač Angular projektu)
-
-```
-npm install -g angular-cli
-```
-
-5. Template - kostra projektu
-
-```
-ng new PROJECT_NAME
-```
-
-6. Bootstrap (nie je nutnosť)
-
-```
-npm install bootstrap@next
-```
+*Ukážka č. 3: využitie direktív*
 
 -----
 
