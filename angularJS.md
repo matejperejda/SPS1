@@ -5,6 +5,7 @@
 * open-source JavaScriptový framework vytvorený spoločnosťou Google 
 * silný nástroj pre tvorbu webových a mobilných aplikácií
 * verzie: Angular 1.x (r. 2009), 2.x (r. 2015), 4.x (r. 2017), Angular 5 (**23.10.2017**)
+* **Igor Minár**, šéf vývojového tímu - [**článok**](https://plus7dni.pluska.sk/Rozhovory/Slovak-v-Google-Ked-som-tam-prisiel-pripadal-som-si-ako-na-vesmirnej-lodi)
 
 #### Angular 1 vs. Angular 2/Angular 4
 
