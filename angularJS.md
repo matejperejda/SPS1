@@ -24,9 +24,9 @@
 
 Zameriava sa na **tvorbu** **[single-page](https://en.wikipedia.org/wiki/Single-page_application)** **aplikácií** - dynamické načítavanie stránok; pri prvom spustení sa načíta celá stránka, potom sa obnovuje už iba jej obsah. Výhodou je rýchlejšie načítavanie "bez prebliknutí", ale aj minimalizácia prenášaných dát medzi serverom a klientom. Takýmito aplikáciami sú napr. **Gmail, Google Maps, Facebook, GitHub, SoundCloud...**
 
-Angular aplikácie sú **tvorené HTML kódom** do ktorého sa vkladajú **špeciálne tagy**, ktoré **určujú**, aké **operácie** sa majú vykonať, alebo aké **dáta** sa majú na konkrétne miesto **vložiť** (tzv. **Data-Binding**, čiže zväzovanie dát s premennými). 
-
 ## Data-Binding
+
+Angular aplikácie sú **tvorené HTML kódom** do ktorého sa vkladajú **špeciálne tagy**, ktoré **určujú**, aké **operácie** sa majú vykonať, alebo aké **dáta** sa majú na konkrétne miesto **vložiť** (tzv. **Data-Binding**, čiže zväzovanie dát s premennými). 
 
 Pomocou špeciálneho zápisu je možné **vkladať dynamický obsah do statického HTML kódu**. Miesto, kam sa má dynamický obsah umiestniť sa označuje **dvoma zloženými zátvorkami**. 
 
