@@ -4,7 +4,7 @@
 
 * open-source JavaScriptový framework vytvorený spoločnosťou Google 
 * silný nástroj pre tvorbu webových a mobilných aplikácií
-* verzie: Angular 1.x (r. 2009), 2.x (r. 2015), 4.x (r. 2017), Angular 5 (**23.10.2017**)
+* verzie: Angular 1.x (r. 2010), 2.x (r. 2015), 4.x (r. 2017), Angular 5 (**23.10.2017**)
 * **Igor Minár**, šéf vývojového tímu - [**článok**](https://plus7dni.pluska.sk/Rozhovory/Slovak-v-Google-Ked-som-tam-prisiel-pripadal-som-si-ako-na-vesmirnej-lodi)
 
 #### Angular 1 vs. Angular 2/Angular 4
@@ -99,7 +99,7 @@ export class AppComponent {
 } 
 ```
 
-Každá Angular 2 aplikácia taktiež pozostáva z modulov, ktorej súčasťou musí byť koreňový **Angular Root Module**. Tento koreňový modul môže mať viacero komponentov s rôznymi funkciami. Funkcia modulov je spájať komponenty do jedného celku, čím sa vytvorí modul s určitou funkcionalitou. 
+Každá Angular 2 aplikácia taktiež pozostáva z [**modulov**](https://docs.angularjs.org/guide/module), ktorej súčasťou musí byť koreňový **Angular Root Module** (zostavovací modul aplikácie ~ `main` metóda v Jave). Tento koreňový modul môže mať viacero komponentov s rôznymi oddelenými funkciami. Funkcia modulov je rozdeliť aplikáciu do určitých logických častí (kontajnerov), ktoré zastávajú nejakú úlohu.
 
 
 *Príklad koreňového modulu:*
@@ -230,7 +230,7 @@ Direktívy sú prvky jazyka HTML, ktoré sú súčasťou BrowserModule modulu a 
 npm install –g typescript
 ```
 
-4. [Angular CLI](https://cli.angular.io/) - Command Line Interface (zostavovač Angular projektu)
+4. [Angular Quickstart](https://github.com/angular/quickstart) alebo [Angular CLI](https://cli.angular.io/) - Command Line Interface (zostavovač Angular projektu)
 
 ```
 npm install -g angular-cli
