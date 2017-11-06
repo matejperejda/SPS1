@@ -81,20 +81,18 @@ Tvorba aplikácií s využitím architektúry MVC vyžaduje vytvorenie troch kom
 * [**Metadata**](https://angular.io/api/core/Component#metadata-overview) - definuje napr. názov html tagu komponentu (`selector`), štýly, animácie, šablóny a iné
 * **Template** - definovanie HTML pohľadu, ktorý bude zobrazovaný v aplikácii (.html)
 
-*Príklad komponentu:*
+*Príklad triedy komponentu:*
 
 ```typescript
 import { Component } from '@angular/core';
 
 @Component ({ 
-   selector: 'my-app',  					// názov komponentu
-   templateUrl: './app.component.html'     // HTML šablóna, ktorá prislúcha tomuto komponentu
-   styleUrls: [ './app.component.css' ]    
+   selector: 'my-app',  					// html tag komponentu
+   templateUrl: './app.component.html'     // cesta k šablóne, ktorá prislúcha tomuto komponentu
+   styleUrls: [ './app.component.css' ]    // definovanie štýlu
 }) 
 
-// Trieda
 export class AppComponent { 
-   // telo triedy
 	name:string = 'My First Angular Page';
 } 
 ```
