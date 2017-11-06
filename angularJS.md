@@ -189,7 +189,7 @@ export class AppComponent {					// zadefinovali sme triedu s názvom AppComponen
 }
 ```
 
-*Príklad OOP v Typescripte:*
+*Príklad OOP v Typescripte:* + [**viac info o triedach**](https://www.typescriptlang.org/docs/handbook/classes.html)
 
 ```typescript
 class Student {
