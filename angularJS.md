@@ -212,7 +212,7 @@ class Student {
 
 *Ukážka č. 1: [**link**](https://stackblitz.com/edit/angular-sps-1)*
 
-*Ukážka č. 2: tvorba nového komponentu*
+*Ukážka č. 2: [**tvorba nového komponentu**](https://stackblitz.com/edit/angular-sps-2)*
 
 ## Direktívy
 
@@ -250,7 +250,7 @@ Direktívy sú prvky jazyka HTML, ktoré sú súčasťou BrowserModule modulu a 
 </form>
 ```
 
-*Ukážka č. 3: využitie direktív*
+*Ukážka č. 3: [**využitie direktív**](https://stackblitz.com/edit/angular-sps-3)*
 
 -----
 
@@ -275,4 +275,3 @@ Vytvorte metódu **getRecenzia(nazov:string, text:string)**, ktorá z vyplnenéh
 ### 4. úloha
 
 Do komponentu **review-form** pridajte výpis všetkých pridaných recenzií. Využite neusporiadaný zoznam (*ul*), prípadne tieto recenzie namapujte do tabuľky. Pre túto funkcionalitu môžete vytvoriť samostatný komponent, ktorý bude tieto recenzie vypisovať.
-
