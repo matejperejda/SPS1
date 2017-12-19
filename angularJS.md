@@ -275,3 +275,5 @@ Vytvorte metódu **getRecenzia(nazov:string, text:string)**, ktorá z vyplnenéh
 ### 4. úloha
 
 Do komponentu **review-form** pridajte výpis všetkých pridaných recenzií. Využite neusporiadaný zoznam (*ul*), prípadne tieto recenzie namapujte do tabuľky. Pre túto funkcionalitu môžete vytvoriť samostatný komponent, ktorý bude tieto recenzie vypisovať.
+
+**Riešenia úloh :** https://stackblitz.com/@matejperejda 
